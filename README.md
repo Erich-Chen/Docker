@@ -5,4 +5,9 @@ Docker Memo
 On Ubuntu Server 16.04.2 LTS for my case; ref. https://get.docker.com/ for more.  
 ```curl -sSL https://get.docker.com/ | sh```  
 or  
-```wget -qO- https://test.docker.com/ | sh```  
+```wget -qO- https://test.docker.com/ | sh```    
+
+You will get a promot to add your account into "docker" group.  
+···sudo usermod -aG docker *your_user_name*···
+
+## HelloWorld
