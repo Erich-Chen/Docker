@@ -1,5 +1,5 @@
 # Docker
-Docker Memo
+Docker Quick Referrence.
 
 ## Install 
 On Ubuntu Server 16.04.2 LTS for my case; ref. https://get.docker.com/ for more.  
@@ -49,5 +49,17 @@ docker images | import | build | commit | rmi | load | save
 docker history | tag
 ```
 
+### Dockerfile
+```
+mkdir *docker_builds* && cd $_
+mkdir *test1* && cd $_ && nano Dockerfile
+#edit Dockerfile
+docker build -t *docker-whale* .
+docker run *docker-whale*
+```
+sample of Dockerfile
+>FROM docker/whalesay:latest
+>RUN apt-get -y update && apt-get install -y fortunes
+>CMD /usr/games/fortune -a | cowsa
 
 
