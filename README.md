@@ -58,8 +58,8 @@ docker build -t *docker-whale* .
 docker run *docker-whale*
 ```
 sample of Dockerfile
->FROM docker/whalesay:latest
->RUN apt-get -y update && apt-get install -y fortunes
->CMD /usr/games/fortune -a | cowsa
+>FROM docker/whalesay:latest  
+>RUN apt-get -y update && apt-get install -y fortunes  
+>CMD /usr/games/fortune -a | cowsa  
 
 
