@@ -16,3 +16,38 @@ exit
 
 ## HelloWorld
 ```docker run hello-world```
+
+## Cheatsheet
+### Container
+```
+docker run   # create and starts a container
+docker kill  # kill a running container
+docker rm    # delete a container
+docker ps    # show running containers
+```
+Useful examples
+```
+docker run -it 
+```
+For full commands, ref. https://github.com/wsargent/docker-cheat-sheet/blob/master/README.md
+```
+docker create | rename | run | rm | update
+docker start | stop | restart | pause | unpause | wait | kikk | attach
+docker ps (-a) | logs | inspect | events | port | top | stats | diff
+docker cp | export
+docker exec
+```
+
+### Image
+```
+docker images  # show all images
+docker rmi     # remove an image
+```
+For full commands, ref. https://github.com/wsargent/docker-cheat-sheet/blob/master/README.md
+```
+docker images | import | build | commit | rmi | load | save
+docker history | tag
+```
+
+
+
