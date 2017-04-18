@@ -64,3 +64,5 @@ sample of Dockerfile
 >CMD /usr/games/fortune -a | cowsa  
 
 
+写到这儿之后发现了一本极好的gitbook，于是就不用往下写得太长了。
+https://yeasy.gitbooks.io/docker_practice/content/image/build.html
