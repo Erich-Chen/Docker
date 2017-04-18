@@ -23,7 +23,7 @@ exit
 docker run   # create and starts a container
 docker kill  # kill a running container
 docker rm    # delete a container
-docker ps    # show running containers
+docker ps    # show running containers, -a to show all containers
 ```
 Useful examples
 ```
@@ -40,6 +40,7 @@ docker exec
 
 ### Image
 ```
+docker pull    # pull an image from repo
 docker images  # show all images
 docker rmi     # remove an image
 ```
