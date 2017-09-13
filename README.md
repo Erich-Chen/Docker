@@ -28,6 +28,8 @@ docker ps    # show running containers, -a to show all containers
 Useful examples
 ```
 docker run -it --rm ubuntu:14.04 bash
+# Remove all stopped containers
+docker rm $(docker ps -a -q)
 ```
 For full commands, ref. https://github.com/wsargent/docker-cheat-sheet/blob/master/README.md
 ```
